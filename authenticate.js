@@ -10,8 +10,8 @@ passport.deserializeUser((user, done) => {
 })
 
 passport.use(new GoogleStrategy({
-    clientID: '1078704625860-k2llr8vh5fg4gc2gu7ghufh1m9tp2h46.apps.googleusercontent.com',
-    clientSecret: 'AMwbHeUKUgAjNNwtfMfOxptH',
+    clientID: '821006766779-dr718fc18cu58ommoaerdm3gpcqikuss.apps.googleusercontent.com',
+    clientSecret: 'kBwjp-h0Gpo8PoobOevzYmln',
     callbackURL: "http://localhost:3000/google/callback"
   },
   function(accessToken, refreshToken, profile, cb) {
